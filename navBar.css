@@ -10,6 +10,7 @@ body{
     padding: 1.4rem 5rem;
     background-color: rgb(240, 240, 240);
     border-bottom: 1px solid rgba(0, 0, 0, 0.089);
+    
 }
 
 .nav-bar .item{
@@ -29,26 +30,29 @@ body{
 }
 
 .side-bar{
-    width:max-content;
+    width: 1fr;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     background-color: rgb(255, 255, 255);
     border: 3px solid aliceblue;
-    
+    overflow: auto;
+}
+
+.side-bar::-webkit-scrollbar {
+    background-color: white;
+    position: absolute;
+    top: 50%;
 }
 
 .side-bar .item{
     padding: 1rem 1rem;
-    border-top: 1px solid;
-    border-bottom: 1px solid;
-    border-left: 2px solid;
-    border-right: 2px solid;
-    border-image: linear-gradient(45deg, purple, orange) 1;
-    
+    white-space:nowrap;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.144);
 }
 
 .side-bar .item:hover{
     box-sizing: border-box;
     background-image: linear-gradient(45deg,purple, orange);
     color: white;
+    cursor: pointer;
 }

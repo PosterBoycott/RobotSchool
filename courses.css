@@ -1,6 +1,6 @@
 .page-con{
     display: grid;
-    grid-template-columns: max-content 1fr;
+    grid-template-columns: 1fr;
 }
 
 .courses-page{
