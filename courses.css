@@ -1,0 +1,36 @@
+.page-con{
+    display: grid;
+    grid-template-columns: max-content 1fr;
+}
+
+.courses-page{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.course-con{
+    width: min-content;
+    border: 1px solid;
+    border-radius: 4px;
+    background-color:azure;
+    height: fit-content;
+    padding-bottom: 1.8rem;
+    margin: 2rem 0.8rem;
+}
+
+.course-con img{
+    width: 225px;
+    height: 225px;
+    object-fit: cover;
+     /* try 20px 10px */ 
+}
+
+.course-con .message-con{
+    height: 2rem;
+    margin: 0 1.4rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}

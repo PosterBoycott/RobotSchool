@@ -1,0 +1,39 @@
+
+.impression-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.impression-section img{
+    display: flex;
+    width: 100%;
+}
+
+.message-con{
+    scale: 2;
+    padding: 1rem 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-25%, -25%);
+    background-color: rgb(255, 255, 255);
+    border: 2px solid gold;
+    border-radius: 5px;
+}
+
+.info-section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    position: relative;
+    padding: 1rem 1rem;
+}
+
+.page-con{
+    display: grid;
+    grid-template-columns: max-content 1fr;
+}
+
+
