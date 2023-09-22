@@ -19,6 +19,10 @@
     margin: 2rem 0.8rem;
 }
 
+.course-con:hover{
+    scale: 1.1;
+}
+
 .course-con img{
     width: 225px;
     height: 225px;

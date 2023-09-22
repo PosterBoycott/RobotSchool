@@ -1,0 +1,10 @@
+body{
+    background-color: rgb(167, 167, 255);
+}
+
+.page-con{
+    margin: 1rem 16rem;
+    background-color: white;
+    padding: 1rem 1.8rem;
+    border-radius: 8px;
+}

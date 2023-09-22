@@ -6,6 +6,7 @@
         <title>Robot School</title>
         <link rel="stylesheet" href="navBar.css">
         <link rel="stylesheet" href="courses.css">
+        <link rel="stylesheet" href="electronics.css">
     </head>
     <body>
     <div class="nav-bar">
@@ -15,7 +16,7 @@
         <div class="item" onclick="location.href='contact.html'">Contact</div>
     </div>
     <div class="side-bar">
-        <div class="item">Courses</div>
+        <div class="item" onclick="location.href='courses.html'">Courses</div>
         <div class="item">Location</div>
         <div class="item">Lecture Times</div>
         <div class="item">Reading Material</div>
@@ -33,37 +34,18 @@
         <div class="item"></div>
     </div>
     <div class="page-con">
-    
-        <div class="courses-page">
-            <div class="course-con" onclick="location.href='robotics.html'">
-                <img src="Arduino Uno R3.jpeg" alt="" srcset="">
-                <div class="message-con">
-                    <b>Robotics</b>
-                </div>
-                <div class="message-con">
-                    Learn how to assemble and program your own Arduino mini-car.
-                </div>
+        <div class="module-set">
+            <div class="lecture-notes" onclick="location.href='electronics-lecture1.html'">
+                <b>Fundamentals</b>
+                <img src="Planet.png" alt="">
             </div>
-            <div class="course-con" onclick="location.href='electronics.html'">
-                <img src="Planet.png" alt="" srcset="">
-                <div class="message-con">
-                    <b>Electronics</b>
-                </div>
-                <div class="message-con">
-                    Learn the fundamentals of electric circuits.
-                </div>
+        </div>
+        <div class="module-set">
+            <div class="lecture-notes" onclick="location.href='electronics-lecture2.html'">
+                <b>Analysis</b>
+                <img src="Planet.png" alt="">
             </div>
-            <div class="course-con">
-                <img src="htmlImage.jpg" alt="" srcset="" style="object-position: 20% 30%;">
-                <div class="message-con">
-                    <b>HTML</b>
-                </div>
-                <div class="message-con">
-                    Coming Soon
-                </div>
-            </div>
-            
         </div>
     </div>
     </body>
-</html>
+    </html>

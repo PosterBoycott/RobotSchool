@@ -1,0 +1,36 @@
+.lecture-notes img{
+    padding-top: 1rem;
+    width: 225px;
+    height: 241px;
+    object-fit: cover;
+}
+
+.lecture{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lecture-notes{
+    margin: 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(27, 38, 136);
+    width: min-content;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.089);
+    color: white;
+}
+
+.page-con{
+    display: flex;
+}
+
+.lecture-notes b{
+    padding-top: 1rem;
+}
+
+.lecture-notes:hover{
+    scale: 1.1;
+    cursor: pointer;
+}

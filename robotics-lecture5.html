@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta viewport="width=screen-width initial-scale=1">
+        <title>Robot School</title>
+        <link rel="stylesheet" href="navBar.css">
+        <link rel="stylesheet" href="robotics-lecture.css">
+    </head>
+    <body>
+    <div class="nav-bar">
+        <div class="item" onclick="location.href='index.html'">Home</div>
+        <div class="item" onclick="location.href='services.html'">Services</div>
+        <div class="item" onclick="location.href='about.html'">About</div>
+        <div class="item" onclick="location.href='contact.html'">Contact</div>
+    </div>
+    <div class="side-bar">
+        <div class="item" onclick="location.href='courses.html'">Courses</div>
+        <div class="item">Location</div>
+        <div class="item">Lecture Times</div>
+        <div class="item">Reading Material</div>
+        <div class="item">Community Projects</div>
+        <div class="item">Community Partners</div>
+        <div class="item">Donations</div>
+        <div class="item">Youtube Tutorials</div>
+        <div class="item" onclick="">Social Media</div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+    </div>
+    <div class="page-con">
+        <h1>Pulse Width Modulation</h1>
+        <h2>Definitions</h2>
+        <ul>
+            <li>Digital Voltage - Can be completly on or completely off.</li>
+            <li>Analog Voltage - Can be completly on, completly off or a value in between.</li>
+            <li>Pulse- Is a voltage provided for a given time period.</li>
+            <li>Width- A dimension which we refer to as the the lenght of the graphed pulse.</li>
+            <li>Modulation- Modifying something.</li>
+        </ul>
+        <h2>PWM</h2>
+        <p>What does Pulse Width Modulation do?</p>
+        <ul>
+            <li>Changes Digital Voltage to Analog Voltage.</li>
+        </ul>
+        <p>Why is this useful?</p>
+        <ul>
+            <li>Allows change in motor rotation speed.</li>
+            <ul>
+                <li>Without this the motor will only be completly off or completly on.</li>
+                <li>With this the motor will be able to turn at speeds between max ,completly on, and min, 
+                    completly off.</li>
+            </ul>
+        </ul>
+        <p>How does this work?</p>
+        <ul>
+            <li>Fluctuate between max voltage and minimum voltage.</li>
+            <ul>
+                <li>Turns the voltage on and off quicker than the eye can see, meaning that we will not 
+                    be able to see it flicker.</li>
+                <li>Instead we will see the average of the small amount of time it is on and the small 
+                    amount of time it is off.</li>
+            </ul>
+            <li>There are two ways of coding</li>
+        </ul>
+        <p>How to use this on arduino.</p>
+        <ul>
+            <li>The method available for the ~ marked pins.</li>
+            <li>The method that can be used for any pin.</li>
+        </ul>
+        <p><b>1. The ~ marked pins method</b></p>
+        <p>There is a built in function called analogWrite(pin, value). Where the pin is the integer
+             number of the pin you want to use and the value is a integer number between 0 and 255.
+              The pin has to be marked with a ~ otherwise this will not work. When the value is set
+               to 0, the voltage will be zero all the time (voltage delivered = 0). When the value is
+                255, the voltage will be on all the time (voltage delivered = Maximum Voltage).</p>
+        <p><b>2. 2. Universal Method</b></p>
+        <p>This method can be used on any of the Arduino pins. Recall that Pulse Width Modulation (PWM) 
+            is basically just a voltage alternating between Vmax and Vmin. Knowing this Arduino allows 
+            us to manualy make our own PWM pin by switching the pin on for a few micro seconds and back 
+            off for a few micro seconds. Meaning that the ration between the time on and time of will be 
+            the voltage delivered. This method have the advantage that we can use any output pin and 
+            that there is more control, but there is slightly more mathematics.</p>
+    </div>
+    </body>
+    </html>

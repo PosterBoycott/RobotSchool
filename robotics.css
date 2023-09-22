@@ -1,0 +1,67 @@
+.lecture{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lecture-notes{
+    margin: 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(27, 38, 136);
+    width: min-content;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.089);
+    color: white;
+}
+
+.lecture-notes img{
+    padding-top: 1rem;
+    width: 225px;
+    height: 241px;
+}
+
+.lecture-notes b{
+    padding-top: 1rem;
+}
+
+.lecture-quiz{
+    margin: 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(27, 38, 136);
+    width: min-content;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.089);
+    color: white;
+}
+
+.lecture-quiz img{
+    padding-top: 1rem;
+}
+
+.lecture-quiz b{
+    padding-top: 1rem;
+}
+
+.lecture-quiz:hover{
+    cursor: pointer;
+    scale: 1.1;
+}
+
+.lecture-notes:hover{
+    cursor: pointer;
+    scale: 1.1;
+}
+
+.green{
+    background-color: rgb(3, 187, 3);
+}
+
+
+.module-set{
+    display: flex;
+    background-color: darkcyan;
+    margin: 1rem 1rem;
+}
