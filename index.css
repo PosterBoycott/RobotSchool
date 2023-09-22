@@ -1,39 +1,68 @@
 
 .impression-section{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 1rem 8rem;
+    font-size: 1.1rem;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.123);
+    border-radius: 14px;
+    background-image: linear-gradient(60deg, rgba(255, 166, 0, 0.822), rgba(128, 0, 128, 0.74), rgba(255, 166, 0, 0.801));
 }
 
-.impression-section img{
-    display: flex;
-    width: 100%;
-}
-
-.message-con{
-    scale: 2;
-    padding: 1rem 2rem;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-25%, -25%);
+.sign-up-row{
     background-color: rgb(255, 255, 255);
-    border: 2px solid gold;
-    border-radius: 5px;
+    border-radius: 14px;
+    width: 60%;
+    margin-bottom: 1rem;
+}
+
+.sign-up-row:hover{
+    scale: 1.1;
+    cursor: pointer;
 }
 
 .info-section{
-    display: flex;
-    flex-direction: row;
-    flex-wrap:wrap;
-    position: relative;
     padding: 1rem 1rem;
 }
 
-.page-con{
-    display: grid;
-    grid-template-columns: max-content 1fr;
+.content-con{
+    display: flex;
+    flex-direction: column;
+    width: 256px;
+    height: 256px;
+    background-image: linear-gradient(blue, rgb(103, 143, 255), blue);
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.projects{
+    display: flex;
+}
+
+.content-con{
+    margin: 1rem 1rem;
+    flex-wrap: wrap;
+}
+
+.content-con img{
+    margin: .4rem .2rem;
+    width: 248px;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.content-con .message{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding: 0 1.6rem;
+    justify-content: center;
+    align-items: center;
 }
 
 

@@ -21,6 +21,7 @@
 
 .course-con:hover{
     scale: 1.1;
+    cursor: pointer;
 }
 
 .course-con img{
