@@ -1,0 +1,26 @@
+.page-con{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 4rem;
+    border: 1px solid black;
+    border-radius: 6px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 2rem;
+}
+
+.financial-table ,th, td{
+    border: 1px solid;
+    border-collapse: collapse;
+    align-items: center;
+}
+
+.financial-table th{
+    background-color: blue;
+    color: white;
+    padding: 0.3rem 0;
+    border: 1px solid black;
+}

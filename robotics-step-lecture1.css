@@ -1,0 +1,9 @@
+.curriculum-table, table, th, td {
+    text-wrap: wrap;
+    border: 1px solid;
+    border-collapse: collapse;
+  }
+
+.curriculum-table, td{
+    padding: 0 1rem;
+}
