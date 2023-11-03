@@ -2,9 +2,10 @@
 <html>
     <head>
         <meta charset=“UTF-8”>
-        <meta viewport="width=screen-width initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale-1">
         <title>Robot School</title>
         <link rel="stylesheet" href="navBar.css">
+        <link rel="stylesheet" href="schoolPromo.css">
     </head>
     <body>
     <div class="nav-bar">
@@ -31,8 +32,9 @@
         <div class="item"></div>
         <div class="item"></div>
     </div>
-        <div class="services-page">
+        <div class="promo-page">
                 <h1>Arduino Business School</h1>
+
                 <p>
                     In this Arduino Business School, learners learn:
                 </p>
@@ -54,8 +56,39 @@
                         </ol>
                     </li>
                 </ul>
-                <h2>What you would need.</h2>
-                <p></p>
+                <h2>Membership Plans</h2>
+                <p>Availability and Pricing could vary slightly depending on area, experience level of the
+                     lecturer and how many learners there are in the class.</p>
+                     <div class="search-con">
+                        <p><b>Search school availability by area</b></p>
+        <form id="myForm">
+                        <input type="text" placeholder="Municipality">
+                        <button  id = "area" type="submit">Search</button>
+        </form>
+                    </div>
+                <div class="locations">
+                    <div id="noClasses" style="opacity: 0;  position: fixed;">
+                        <p>noClasses</p>
+                    </div>
+                    <div id="hatfield" style="opacity: 0;  position: fixed;">
+                        <div class="school-location-con">
+                            <div class="pic-con"></div>
+                            <div class="description-con"></div>
+                        </div>
+                    </div>
+                    <div id="montana" style="opacity: 0; position: fixed;">
+                        <div class="school-location-con">
+                            <div class="pic-con"></div>
+                            <div class="description-con">
+                                <p><b>Where:</b>&nbsp; Montana Landgoed</p>
+                                <p><b>When:</b>&nbsp; Monday and Saturday</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="storage" style="position: absolute; opacity: 0;">nothing</div>
+                    <div id="nothing" style="position: absolute; opacity: 0;"></div>
+                </div>
         </div>
+        <script src="schoolPromo.js"></script>
     </body>
 </html>

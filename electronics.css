@@ -24,6 +24,7 @@
 
 .page-con{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .lecture-notes b{
@@ -34,3 +35,14 @@
     scale: 1.1;
     cursor: pointer;
 }
+
+@media screen and (max-width: 800px) {
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .page-con{
+        margin: 2rem 4rem;
+    }
+}
+

@@ -69,3 +69,28 @@
     background-color: darkcyan;
     margin: 1rem 1rem;
 }
+
+
+@media screen and (max-width: 560px) {
+    .module-set{
+        margin: 1rem 1rem;
+        display: flex;
+        width: max-content;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .lecture-notes{
+        margin: 1rem 1rem;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .module-set{
+        margin: 1rem 1rem;
+        display: flex;
+        margin-left: 25%;
+        width: min-content;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}

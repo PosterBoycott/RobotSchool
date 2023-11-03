@@ -37,16 +37,15 @@
     align-items: center;
     border: 1px solid black;
     border-radius: 8px;
+    margin: 1rem 1rem;
+    
 }
 
 .projects{
     display: flex;
-}
-
-.content-con{
-    margin: 1rem 1rem;
     flex-wrap: wrap;
 }
+
 
 .content-con img{
     margin: .4rem .2rem;
@@ -65,3 +64,25 @@
     align-items: center;
 }
 
+@media screen and (max-width: 800px) {
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .projects{
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .projects{
+        display: flex;
+    }
+    .impression-section{
+        margin: 1rem 1rem;
+    }
+}
