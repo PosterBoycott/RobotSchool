@@ -81,6 +81,7 @@
     }
     .projects{
         display: flex;
+        flex-wrap: wrap;
     }
     .impression-section{
         margin: 1rem 1rem;
