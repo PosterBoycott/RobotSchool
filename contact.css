@@ -1,0 +1,25 @@
+.impression-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 8rem;
+    font-size: 1.1rem;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.123);
+    border-radius: 14px;
+    background-image: linear-gradient(60deg, rgb(51, 188, 252),rgb(0,72, 167), rgb(51, 188, 252));
+}
+
+.sign-up-row{
+    background-color: rgb(255, 255, 255);
+    border-radius: 14px;
+    width: 60%;
+    margin-bottom: 1rem;
+}
+
+.sign-up-row:hover{
+    scale: 1.1;
+    cursor: pointer;
+}
+
