@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Robot School</title>
+        <link rel="stylesheet" href="navBar.css">
+        <link rel="stylesheet" href="arduinoLecture.css">
+    </head>
+    <body>
+        <div class="nav-bar">
+            <div class="item" onclick="location.href='index.html'">Home</div>
+            <div class="item" onclick="location.href='services.html'">Services</div>
+            <div class="item" onclick="location.href='about.html'">About</div>
+            <div class="item" onclick="location.href='contact.html'">Contact</div>
+        </div>
+        <div class="side-bar">
+            <div class="item" onclick="location.href='courses.html'">Courses</div>
+            <div class="item">Location</div>
+            <div class="item">Lecture Times</div>
+            <div class="item">Reading Material</div>
+            <div class="item">Community Projects</div>
+            <div class="item">Community Partners</div>
+            <div class="item">Donations</div>
+            <div class="item">Youtube Tutorials</div>
+            <div class="item" onclick="">Social Media</div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+        </div>
+        <div class="lecture-page">
+            <h1>Arduino Code Lecture 1</h1>
+            <div class="topic">
+                <ol>
+                    <li>Install the Arduino IDE </li>
+                    <li>Open Arduino IDE</li>
+                    <li>Connect Arduino to the Computer</li>
+                    <li>Select the appropriate PORT number.</li>
+                </ol>
+            <p><b>Objective: Turn on an LED.   </b></p>
+            <p>Now let us look at the file. The first thing we will see is that there are already things 
+                written in it. It is two parts. The <b>setup()</b> part and the <b>loop()</b> part.</p>
+            <img src="arduinoTemplate.jpg" alt="arduinoTemplate">
+            <p>
+                The <b>setup()</b> part is the code that is executed first. This code, as the name
+                 suggests sets everything up for the <b>loop()</b> part. The code in this part is 
+                 executed once and never executed again. The code gets executed from the top to the bottom
+                 , one instruction at a time.
+            </p>
+            <p>
+                After the <b>setup()</b> is complete we go into the <b>loop()</b> part. The loop part runs
+                 until either it’s power is turned off we made it turn off in the code. The code gets 
+                 executed from the top to the bottom, one instruction at a time.
+            </p>
+            <h3>Let's Start Coding</h3>
+            <p>Choose the pin we are going to use and tell the computer whether we want to use this pin 
+                as an input or as an output. We will use pin 3 and use it as an output. Spelling is important.
+                Do not forget the <b>Semicolon</b>.
+            </p>
+            <img src="pinMode.jpg" alt="pinMode">
+            <br>
+            <br>
+            <br>
+            <p>
+                Let us make the output of this PIN high. We can understand what the next line of code is 
+                doing by making the Arduino board a metaphorical battery, where the positive side of the 
+                battery is at the pin number we have selected (in this case 3) and the negative side of 
+                the battery is at the ground pin. When the pin is high the battery is charged, when the 
+                pin low the battery is flat.
+            </p>
+            <p>Specify the pin number and then say wheter the output should be high or low.</p>
+            <img src="digitalWrite.jpg" alt="digitalWrite">
+            <p>
+                The code that is behind // in the code example are called comments and are not seen by the
+                 computer. It is there so that both you and other people can add notes in the code file so
+                  that everyone knows what the code is doing.
+            </p>
+            <img src="commentsAdded.jpg" alt="commentsAdded">
+            
+            </div>
+        </div>
+        <div class="social-media"></div>
+    </body>
+</html>

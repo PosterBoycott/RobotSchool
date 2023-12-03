@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Robot School</title>
+        <link rel="stylesheet" href="navBar.css">
+        <link rel="stylesheet" href="arduinoLecture.css">
+    </head>
+    <body>
+        <div class="nav-bar">
+            <div class="item" onclick="location.href='index.html'">Home</div>
+            <div class="item" onclick="location.href='services.html'">Services</div>
+            <div class="item" onclick="location.href='about.html'">About</div>
+            <div class="item" onclick="location.href='contact.html'">Contact</div>
+        </div>
+        <div class="side-bar">
+            <div class="item" onclick="location.href='courses.html'">Courses</div>
+            <div class="item">Location</div>
+            <div class="item">Lecture Times</div>
+            <div class="item">Reading Material</div>
+            <div class="item">Community Projects</div>
+            <div class="item">Community Partners</div>
+            <div class="item">Donations</div>
+            <div class="item">Youtube Tutorials</div>
+            <div class="item" onclick="">Social Media</div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+        </div>
+        <div class="lecture-page">
+            <h1>Arduino Lecture 1</h1>
+            <div class="topic">
+                <h2>Arduino Microcontroller Overview</h2>
+                <p>Things to see on the micro controller:</p>
+                <ol>
+                    <li>Central Processing Unit (CPU)</li>
+                    <li>I/O pins.
+                        <ul>
+                            <li>Pins with a ~ symbol.</li>
+                            <li>Numbers next to them.</li>
+                            <li>Pins with an A on them.</li>
+                            <li>Pins with a Tx or Rx symbol.</li>
+                            <li>Location of the 3V and 5V pin.</li>
+                            <li>Location of the Ground pins.</li>
+                        </ul>
+                    </li>
+                    <li>The USB port.</li>
+                </ol>
+                <p>Te microcontroller that we will be working with during our project is the Arduino Uno
+                     R3. We will talk about what a microcontroller is, what the different parts of the 
+                     microcontroller is and what their functions are. We will also do our first Arduino 
+                     Program towards the end of this lecture.
+                </p>
+                <p>Before I tell you what a microcontroller is I first want to talk about the different 
+                    parts of the Microcontroller. It will be a simple overview.
+                </p>
+                
+                <h2>CPU</h2>
+                <p>The CPU is in a sense the brain of the microcontroller. The CPU does the calculations 
+                    and controls the “decisions” of the Arduino once our program was uploaded on to it. 
+                    The CPU is a chip. In our case the chip’s name is Arduino Atmega.
+                </p>
+                <h2>Pins</h2>
+                <p>The pins are places where we can connect our lights, motors, wires (our circuits too).
+                     The CPU determines when these pins have a high or low output (wheter the light should 
+                     be on or off); more on this later. 
+                </p>
+                <p>There are a variety of pins.</p>
+                <p>Let us look at the Microcontroller. Pay attention to the number and symbols written on 
+                    the floor, next to the pins.  
+                </p>
+                <p>
+                    The first thing we should see is that they are all labeled differently. That is because
+                     the labels next to them is the name given to them and we will refer to them by their 
+                     names when we start programing them. 
+                </p>
+                <p>
+                    The second thing I want you to see is that some pins have a number, a name, and other 
+                    symbols like ~ Tx and Rx. These pins can be used as regular pins but also have special
+                     qualities to them that the others do not (more on this later). 
+                </p>
+                <p>
+                    The third thing we should see are the GND, 5V, 3V pins. We use this pin to provide 
+                    power to the Arduino via a battery when we want to use our robot and not have it
+                     connected to the computer. The ground is also the negative side of the power, we 
+                     need to connect at least one end of our circuit to this pin.
+                </p>
+                <h2>USB</h2>
+                <p>The USB port is where we connect the microcontroller to our computer so that we can 
+                    upload the compiled code onto the Arduino. (We write our code on our computer; our 
+                    computer converts our code to 1’s and 0’s that then gets uploaded onto the controller).
+                </p>
+                <h2>Microcontroller</h2>
+                <p>
+                    The microcontroller is everything, the CPU, the Pins everything put together. In 
+                    our case it is called the Arduino Uno R3.
+                </p>
+            </div>
+        </div>
+        <div class="topic">
+            <h2>First Arduino Program</h2>
+            <p>Ideally, we all should have an Arduino Microcontroller, the components necessary and a 
+                computer that you can use to code on. If you do not have one or more of these things, 
+                that is fine (you can learn everything you need to learn even if you don’t have one). 
+                Select the path that fits your needs.</p>
+                <div class="btn-paths">
+                    <button onclick="location.href='arduinoLecture1Code.html'">We have it all.</button>
+                    <button>I have a computer.</button>
+                    <button>None of these.</button>
+                </div>
+        </div>
+        <div class="social-media"></div>
+    </body>
+</html>

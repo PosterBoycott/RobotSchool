@@ -1,0 +1,28 @@
+h1{
+    margin: 1rem;
+}
+.topic{
+    width: 600px;
+    margin-left: 10%;
+}
+
+.btn-paths button{
+    width: 150px;
+    margin: 1rem 1rem 1rem 1rem;
+    border-style: none;
+    border-style: solid;
+    border: 1px, black;
+    border-radius: 0.41rem;
+    color: white;
+    background-color: rgb(0, 30, 128);
+    height: 2rem;
+}
+
+.btn-paths button:hover{
+    scale: 1.1;
+    cursor: pointer;
+}
+
+.social-media{
+    height: 8rem;
+}
